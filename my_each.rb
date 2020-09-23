@@ -4,7 +4,7 @@ def my_each(array) # put argument(s) here
   while i < array.length do |word|
     puts word
     i += 1
-    yield 
+    yield
   end
   array
 
